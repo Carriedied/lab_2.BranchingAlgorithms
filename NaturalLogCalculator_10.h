@@ -62,7 +62,7 @@ private:
         for (int n = 0; n < maxIter; ++n) 
         {
             double numerator = pow(x - 1, n + 1);
-            double denominator = (n + 1) * pow(x + 1, n + 1);
+            double denominator = (n + 1) * pow(x, n + 1);
             double term = numerator / denominator;
 
             sum += term;
